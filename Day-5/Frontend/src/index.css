@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+html{
+  background-color: #111;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.notes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  padding-inline: 3rem;
+}
+
+.note{
+  background-color: #494949;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  max-width: 30rem;
+}
+
+.note-create-form{
+  display: flex;
+  gap: 1rem;
+  padding-block: 1rem;
+  padding-inline: 3rem;
+}
+
+.title{
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.description{
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.btn{
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+}
+
+/* .btn:hover{
+  background-color: #0069d9;
+} */
+
+.btn:active{
+  background-color: #005cbf;
+  transform: scale(0.95);
+}
+
+.delete{
+  background-color: #ca1717;
+  color: white;
+}
+
+.edit{
+  background-color: #146814;
+  color: white;
+  font-size: 0.8rem;
+}
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+  border: none;
+  margin-top: 0.5rem;
+  font-weight: 200;
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+.edit-note{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  padding: 1rem;
+  padding-inline: 3rem;
+}
+
+.edit-note-form{
+  display: flex;
+  gap: 1rem;
+  padding-block: 1rem;
+  /* padding-inline: 3rem; */
+}
+
+.update{
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #ff9100;
+  color: white;
+}
