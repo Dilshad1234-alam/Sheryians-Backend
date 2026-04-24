@@ -1,0 +1,33 @@
+.songlist {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+  background: #121212;
+  padding: 20px;
+  overflow-y: auto;
+  border-left: 1px solid #333;
+}
+
+.song-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+}
+
+.song-item:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.song-item.active {
+  background: #dd4200;
+}
+
+.song-item img {
+  width: 50px;
+  border-radius: 8px;
+}
